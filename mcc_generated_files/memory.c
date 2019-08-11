@@ -135,12 +135,6 @@ int8_t FLASH_WriteBlock(uint16_t writeAddr, uint16_t *flashWordArray)
         PMCON1bits.WR = 1;
         NOP();
         NOP();
-        NOP();
-        NOP();
-        NOP();
-        NOP();
-        NOP();
-        NOP();
 
 	writeAddr++;
     }
