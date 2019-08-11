@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>gsm_cool</name>
+            <name>pic16-gsm</name>
             <creation-uuid>f3b22871-9720-4aee-833f-6cff9024b435</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
