@@ -7,7 +7,7 @@ uint16_t pFlashBuf[USER_FLASH_SIZE_WORDS];
 uint8_t* pUserFlashWnd = ((uint8_t*)pFlashBuf) + _USER_FLASH_BLOCK_OFFSET;
 
 uint16_t IndexToBlockAddr(uint8_t idx) {
-    if (idx >= _USER_FLASH_BLOCK_COUNT) {
+    if (idx >= USER_FLASH_BLOCK_COUNT) {
         return 0;
     }
     return _USER_FLASH_ADDR + (idx * _USER_FLASH_BLOCK_SIZE_WORDS);

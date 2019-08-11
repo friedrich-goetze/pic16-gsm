@@ -171,7 +171,7 @@ void parseUSBCommand(char* pStr) {
             USB_USART_WriteStrToOutBuf("req more args\n");
         }
         idx = (uint8_t)(*args[1]) - '0';
-        if(idx >= _USER_FLASH_BLOCK_COUNT) {
+        if(idx >= USER_FLASH_BLOCK_COUNT) {
             USB_USART_WriteStrToOutBuf("illegal 1st arg\n");
             return;
         }
